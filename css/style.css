@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    min-height: 200px;
+    background: pink;
+    border: 1px solid black;
+    position: relative;
+}
+
+div p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nest {
+    padding: 10px;
+}
+
+.nested {
+    background: red;
+    border: 1px solid white;
+}
